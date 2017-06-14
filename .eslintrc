@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"extends": "xo/esnext",
+	"globals": {
+		"nodecg": true
+	},
+	"rules": {
+		"babel/new-cap": [2, {
+			"capIsNewExceptions": [
+				"nodecg.Replicant"
+			]
+		}]
+	}
+}

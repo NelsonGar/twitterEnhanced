@@ -1,0 +1,52 @@
+{
+  "name": "lfg-twitchapi",
+  "version": "1.0.0",
+  "description": "Lets other bundles easily query the Twitch API on behalf of a logged in user.",
+  "homepage": "http://supportclass.net/",
+  "author": {
+    "name": "Alex Van Camp",
+    "email": "email@alexvan.camp",
+    "url": "http://alexvan.camp"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "twitch",
+    "api",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "status",
+        "title": "Twitch API Status",
+        "width": 4,
+        "file": "status.html",
+        "headerColor": "#564573"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://lange@github.com/SupportClass/lfg-twitchapi.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.11.1",
+    "eslint-config-xo": "^0.14.1",
+    "eslint-plugin-babel": "^3.2.0"
+  },
+  "scripts": {
+    "static": "eslint **/*.js",
+    "test": "npm run static"
+  },
+  "dependencies": {
+    "request-promise": "^3.0.0"
+  }
+}

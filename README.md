@@ -1,3 +1,9 @@
+JUST A COPY PASTA FROM lfg-twitchapi and enhanced it a bit.
+Project to rework everything of it. Big thank to Alex Van Camp - AKA - Lange
+
+-Nelson Garcia-
+
+
 # lfg-twitchapi
 This is a [NodeCG](http://github.com/nodecg/nodecg) bundle.
 

@@ -24,7 +24,7 @@
     "dashboardPanels": [
       {
         "name": "status",
-        "title": "Twitch API Status",
+        "title": "Twitch Status",
         "width": 4,
         "file": "status.html",
         "headerColor": "#564573"
